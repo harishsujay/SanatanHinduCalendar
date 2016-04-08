@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		68FCB69D1CB7FEDE00C87FCD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68FCB69C1CB7FEDE00C87FCD /* AppDelegate.swift */; };
+		68FCB69F1CB7FEDE00C87FCD /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68FCB69E1CB7FEDE00C87FCD /* MasterViewController.swift */; };
+		68FCB6A11CB7FEDE00C87FCD /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68FCB6A01CB7FEDE00C87FCD /* DetailViewController.swift */; };
+		68FCB6A41CB7FEDE00C87FCD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68FCB6A21CB7FEDE00C87FCD /* Main.storyboard */; };
+		68FCB6A61CB7FEDE00C87FCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68FCB6A51CB7FEDE00C87FCD /* Assets.xcassets */; };
+		68FCB6A91CB7FEDE00C87FCD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68FCB6A71CB7FEDE00C87FCD /* LaunchScreen.storyboard */; };
+		68FCB6B41CB7FEDE00C87FCD /* SanatanHinduCalendarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68FCB6B31CB7FEDE00C87FCD /* SanatanHinduCalendarTests.swift */; };
+		68FCB6BF1CB7FEDF00C87FCD /* SanatanHinduCalendarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68FCB6BE1CB7FEDF00C87FCD /* SanatanHinduCalendarUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		68FCB6B01CB7FEDE00C87FCD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 68FCB6911CB7FEDE00C87FCD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68FCB6981CB7FEDE00C87FCD;
+			remoteInfo = SanatanHinduCalendar;
+		};
+		68FCB6BB1CB7FEDF00C87FCD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 68FCB6911CB7FEDE00C87FCD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68FCB6981CB7FEDE00C87FCD;
+			remoteInfo = SanatanHinduCalendar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		68FCB6991CB7FEDE00C87FCD /* SanatanHinduCalendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SanatanHinduCalendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		68FCB69C1CB7FEDE00C87FCD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		68FCB69E1CB7FEDE00C87FCD /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		68FCB6A01CB7FEDE00C87FCD /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		68FCB6A31CB7FEDE00C87FCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		68FCB6A51CB7FEDE00C87FCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		68FCB6A81CB7FEDE00C87FCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		68FCB6AA1CB7FEDE00C87FCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68FCB6AF1CB7FEDE00C87FCD /* SanatanHinduCalendarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SanatanHinduCalendarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		68FCB6B31CB7FEDE00C87FCD /* SanatanHinduCalendarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SanatanHinduCalendarTests.swift; sourceTree = "<group>"; };
+		68FCB6B51CB7FEDE00C87FCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68FCB6BA1CB7FEDF00C87FCD /* SanatanHinduCalendarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SanatanHinduCalendarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		68FCB6BE1CB7FEDF00C87FCD /* SanatanHinduCalendarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SanatanHinduCalendarUITests.swift; sourceTree = "<group>"; };
+		68FCB6C01CB7FEDF00C87FCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		68FCB6961CB7FEDE00C87FCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68FCB6AC1CB7FEDE00C87FCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68FCB6B71CB7FEDF00C87FCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		68FCB6901CB7FEDE00C87FCD = {
+			isa = PBXGroup;
+			children = (
+				68FCB69B1CB7FEDE00C87FCD /* SanatanHinduCalendar */,
+				68FCB6B21CB7FEDE00C87FCD /* SanatanHinduCalendarTests */,
+				68FCB6BD1CB7FEDF00C87FCD /* SanatanHinduCalendarUITests */,
+				68FCB69A1CB7FEDE00C87FCD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		68FCB69A1CB7FEDE00C87FCD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68FCB6991CB7FEDE00C87FCD /* SanatanHinduCalendar.app */,
+				68FCB6AF1CB7FEDE00C87FCD /* SanatanHinduCalendarTests.xctest */,
+				68FCB6BA1CB7FEDF00C87FCD /* SanatanHinduCalendarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		68FCB69B1CB7FEDE00C87FCD /* SanatanHinduCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				68FCB69C1CB7FEDE00C87FCD /* AppDelegate.swift */,
+				68FCB69E1CB7FEDE00C87FCD /* MasterViewController.swift */,
+				68FCB6A01CB7FEDE00C87FCD /* DetailViewController.swift */,
+				68FCB6A21CB7FEDE00C87FCD /* Main.storyboard */,
+				68FCB6A51CB7FEDE00C87FCD /* Assets.xcassets */,
+				68FCB6A71CB7FEDE00C87FCD /* LaunchScreen.storyboard */,
+				68FCB6AA1CB7FEDE00C87FCD /* Info.plist */,
+			);
+			path = SanatanHinduCalendar;
+			sourceTree = "<group>";
+		};
+		68FCB6B21CB7FEDE00C87FCD /* SanatanHinduCalendarTests */ = {
+			isa = PBXGroup;
+			children = (
+				68FCB6B31CB7FEDE00C87FCD /* SanatanHinduCalendarTests.swift */,
+				68FCB6B51CB7FEDE00C87FCD /* Info.plist */,
+			);
+			path = SanatanHinduCalendarTests;
+			sourceTree = "<group>";
+		};
+		68FCB6BD1CB7FEDF00C87FCD /* SanatanHinduCalendarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				68FCB6BE1CB7FEDF00C87FCD /* SanatanHinduCalendarUITests.swift */,
+				68FCB6C01CB7FEDF00C87FCD /* Info.plist */,
+			);
+			path = SanatanHinduCalendarUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		68FCB6981CB7FEDE00C87FCD /* SanatanHinduCalendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68FCB6C31CB7FEDF00C87FCD /* Build configuration list for PBXNativeTarget "SanatanHinduCalendar" */;
+			buildPhases = (
+				68FCB6951CB7FEDE00C87FCD /* Sources */,
+				68FCB6961CB7FEDE00C87FCD /* Frameworks */,
+				68FCB6971CB7FEDE00C87FCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SanatanHinduCalendar;
+			productName = SanatanHinduCalendar;
+			productReference = 68FCB6991CB7FEDE00C87FCD /* SanatanHinduCalendar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		68FCB6AE1CB7FEDE00C87FCD /* SanatanHinduCalendarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68FCB6C61CB7FEDF00C87FCD /* Build configuration list for PBXNativeTarget "SanatanHinduCalendarTests" */;
+			buildPhases = (
+				68FCB6AB1CB7FEDE00C87FCD /* Sources */,
+				68FCB6AC1CB7FEDE00C87FCD /* Frameworks */,
+				68FCB6AD1CB7FEDE00C87FCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				68FCB6B11CB7FEDE00C87FCD /* PBXTargetDependency */,
+			);
+			name = SanatanHinduCalendarTests;
+			productName = SanatanHinduCalendarTests;
+			productReference = 68FCB6AF1CB7FEDE00C87FCD /* SanatanHinduCalendarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		68FCB6B91CB7FEDF00C87FCD /* SanatanHinduCalendarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68FCB6C91CB7FEDF00C87FCD /* Build configuration list for PBXNativeTarget "SanatanHinduCalendarUITests" */;
+			buildPhases = (
+				68FCB6B61CB7FEDF00C87FCD /* Sources */,
+				68FCB6B71CB7FEDF00C87FCD /* Frameworks */,
+				68FCB6B81CB7FEDF00C87FCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				68FCB6BC1CB7FEDF00C87FCD /* PBXTargetDependency */,
+			);
+			name = SanatanHinduCalendarUITests;
+			productName = SanatanHinduCalendarUITests;
+			productReference = 68FCB6BA1CB7FEDF00C87FCD /* SanatanHinduCalendarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		68FCB6911CB7FEDE00C87FCD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = RMIT;
+				TargetAttributes = {
+					68FCB6981CB7FEDE00C87FCD = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					68FCB6AE1CB7FEDE00C87FCD = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 68FCB6981CB7FEDE00C87FCD;
+					};
+					68FCB6B91CB7FEDF00C87FCD = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 68FCB6981CB7FEDE00C87FCD;
+					};
+				};
+			};
+			buildConfigurationList = 68FCB6941CB7FEDE00C87FCD /* Build configuration list for PBXProject "SanatanHinduCalendar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 68FCB6901CB7FEDE00C87FCD;
+			productRefGroup = 68FCB69A1CB7FEDE00C87FCD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				68FCB6981CB7FEDE00C87FCD /* SanatanHinduCalendar */,
+				68FCB6AE1CB7FEDE00C87FCD /* SanatanHinduCalendarTests */,
+				68FCB6B91CB7FEDF00C87FCD /* SanatanHinduCalendarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		68FCB6971CB7FEDE00C87FCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68FCB6A91CB7FEDE00C87FCD /* LaunchScreen.storyboard in Resources */,
+				68FCB6A61CB7FEDE00C87FCD /* Assets.xcassets in Resources */,
+				68FCB6A41CB7FEDE00C87FCD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68FCB6AD1CB7FEDE00C87FCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68FCB6B81CB7FEDF00C87FCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		68FCB6951CB7FEDE00C87FCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68FCB6A11CB7FEDE00C87FCD /* DetailViewController.swift in Sources */,
+				68FCB69F1CB7FEDE00C87FCD /* MasterViewController.swift in Sources */,
+				68FCB69D1CB7FEDE00C87FCD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68FCB6AB1CB7FEDE00C87FCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68FCB6B41CB7FEDE00C87FCD /* SanatanHinduCalendarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68FCB6B61CB7FEDF00C87FCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68FCB6BF1CB7FEDF00C87FCD /* SanatanHinduCalendarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		68FCB6B11CB7FEDE00C87FCD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 68FCB6981CB7FEDE00C87FCD /* SanatanHinduCalendar */;
+			targetProxy = 68FCB6B01CB7FEDE00C87FCD /* PBXContainerItemProxy */;
+		};
+		68FCB6BC1CB7FEDF00C87FCD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 68FCB6981CB7FEDE00C87FCD /* SanatanHinduCalendar */;
+			targetProxy = 68FCB6BB1CB7FEDF00C87FCD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		68FCB6A21CB7FEDE00C87FCD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68FCB6A31CB7FEDE00C87FCD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		68FCB6A71CB7FEDE00C87FCD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68FCB6A81CB7FEDE00C87FCD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		68FCB6C11CB7FEDF00C87FCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		68FCB6C21CB7FEDF00C87FCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		68FCB6C41CB7FEDF00C87FCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SanatanHinduCalendar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rmit.SanatanHinduCalendar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		68FCB6C51CB7FEDF00C87FCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SanatanHinduCalendar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rmit.SanatanHinduCalendar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		68FCB6C71CB7FEDF00C87FCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SanatanHinduCalendarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rmit.SanatanHinduCalendarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SanatanHinduCalendar.app/SanatanHinduCalendar";
+			};
+			name = Debug;
+		};
+		68FCB6C81CB7FEDF00C87FCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SanatanHinduCalendarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rmit.SanatanHinduCalendarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SanatanHinduCalendar.app/SanatanHinduCalendar";
+			};
+			name = Release;
+		};
+		68FCB6CA1CB7FEDF00C87FCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SanatanHinduCalendarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rmit.SanatanHinduCalendarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SanatanHinduCalendar;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		68FCB6CB1CB7FEDF00C87FCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SanatanHinduCalendarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rmit.SanatanHinduCalendarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SanatanHinduCalendar;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		68FCB6941CB7FEDE00C87FCD /* Build configuration list for PBXProject "SanatanHinduCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68FCB6C11CB7FEDF00C87FCD /* Debug */,
+				68FCB6C21CB7FEDF00C87FCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68FCB6C31CB7FEDF00C87FCD /* Build configuration list for PBXNativeTarget "SanatanHinduCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68FCB6C41CB7FEDF00C87FCD /* Debug */,
+				68FCB6C51CB7FEDF00C87FCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		68FCB6C61CB7FEDF00C87FCD /* Build configuration list for PBXNativeTarget "SanatanHinduCalendarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68FCB6C71CB7FEDF00C87FCD /* Debug */,
+				68FCB6C81CB7FEDF00C87FCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		68FCB6C91CB7FEDF00C87FCD /* Build configuration list for PBXNativeTarget "SanatanHinduCalendarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68FCB6CA1CB7FEDF00C87FCD /* Debug */,
+				68FCB6CB1CB7FEDF00C87FCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 68FCB6911CB7FEDE00C87FCD /* Project object */;
+}
