@@ -102,6 +102,31 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		688AAD1B1CB90B83000D6DFF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				68FCB69E1CB7FEDE00C87FCD /* MasterViewController.swift */,
+				68FCB6A01CB7FEDE00C87FCD /* DetailViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		688AAD1C1CB90B8D000D6DFF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6832B63A1CB8C4A10065D92A /* MasterData.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		688AAD1D1CB90B94000D6DFF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				681FCE6C1CB8CD8A00DBF9BF /* MasterTableViewCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
 		68FCB6901CB7FEDE00C87FCD = {
 			isa = PBXGroup;
 			children = (
@@ -125,15 +150,14 @@
 		68FCB69B1CB7FEDE00C87FCD /* SanatanHinduCalendar */ = {
 			isa = PBXGroup;
 			children = (
-				6832B63C1CB8C65B0065D92A /* Supporting Files */,
 				68FCB69C1CB7FEDE00C87FCD /* AppDelegate.swift */,
-				6832B63A1CB8C4A10065D92A /* MasterData.swift */,
-				681FCE6C1CB8CD8A00DBF9BF /* MasterTableViewCell.swift */,
-				68FCB69E1CB7FEDE00C87FCD /* MasterViewController.swift */,
-				68FCB6A01CB7FEDE00C87FCD /* DetailViewController.swift */,
 				68FCB6A21CB7FEDE00C87FCD /* Main.storyboard */,
-				68FCB6A51CB7FEDE00C87FCD /* Assets.xcassets */,
 				68FCB6A71CB7FEDE00C87FCD /* LaunchScreen.storyboard */,
+				688AAD1D1CB90B94000D6DFF /* View */,
+				688AAD1C1CB90B8D000D6DFF /* Model */,
+				688AAD1B1CB90B83000D6DFF /* Controller */,
+				68FCB6A51CB7FEDE00C87FCD /* Assets.xcassets */,
+				6832B63C1CB8C65B0065D92A /* Supporting Files */,
 				68FCB6AA1CB7FEDE00C87FCD /* Info.plist */,
 			);
 			path = SanatanHinduCalendar;

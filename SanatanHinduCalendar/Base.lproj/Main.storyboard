@@ -87,7 +87,7 @@
                                     <rect key="frame" x="0.0" y="0.0" width="600" height="279.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="5qK-Dz-vPt">
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5qK-Dz-vPt">
                                             <rect key="frame" x="0.0" y="0.0" width="600" height="280"/>
                                         </imageView>
                                     </subviews>
@@ -96,6 +96,7 @@
                                         <constraint firstItem="5qK-Dz-vPt" firstAttribute="leading" secondItem="6hg-hs-FmO" secondAttribute="leading" id="N24-ME-cZM"/>
                                         <constraint firstItem="5qK-Dz-vPt" firstAttribute="centerY" secondItem="6hg-hs-FmO" secondAttribute="centerY" id="bNT-Mt-rtX"/>
                                         <constraint firstItem="5qK-Dz-vPt" firstAttribute="top" secondItem="6hg-hs-FmO" secondAttribute="top" id="bgR-OO-UL6"/>
+                                        <constraint firstItem="5qK-Dz-vPt" firstAttribute="centerX" secondItem="6hg-hs-FmO" secondAttribute="centerX" id="dLX-vY-Cjl"/>
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>
