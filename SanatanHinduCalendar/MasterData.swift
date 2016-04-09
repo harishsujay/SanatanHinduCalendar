@@ -20,9 +20,10 @@ class MasterData {
     }
     
     let apptiles = [
-        Entry (fname: "festivals.jpg", heading: "Festivals"),
-        Entry (fname: "spiritual_practices.jpg", heading: "Spiritual Practices"),
-        Entry (fname: "hindu_philosophy.jpg", heading: "Hindu Philosophy"),
-        Entry (fname: "auspicious_times.jpg", heading: "Auspicious Times")
+        Entry (fname: "calendar.jpg", heading: "Calendar"),
+        Entry (fname: "holy_festivals.jpg", heading: "Holy Festivals"),
+        Entry (fname: "sadhana.jpg", heading: "Sadhana"),
+        Entry (fname: "ideal_routine.jpg", heading: "Ideal Routine"),
+        Entry (fname: "glimpse_of_hindutva.jpg", heading: "Glimpse of Hindutva")
     ]
 }

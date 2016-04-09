@@ -3,7 +3,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--Master-->
@@ -76,50 +75,31 @@
         <scene sceneID="smW-Zh-WAh">
             <objects>
                 <tableViewController title="Master" clearsSelectionOnViewWillAppear="NO" id="7bK-jq-Zjz" customClass="MasterViewController" customModule="SanatanHinduCalendar" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="600" sectionHeaderHeight="28" sectionFooterHeight="28" id="QxE-yx-g3V">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="280" sectionHeaderHeight="28" sectionFooterHeight="28" id="QxE-yx-g3V">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" rowHeight="300" id="Ijd-dw-uy9" customClass="MasterTableViewCell" customModule="SanatanHinduCalendar" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="92" width="600" height="300"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" rowHeight="280" id="Ijd-dw-uy9" customClass="MasterTableViewCell" customModule="SanatanHinduCalendar" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="92" width="600" height="280"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Ijd-dw-uy9" id="6hg-hs-FmO">
-                                    <rect key="frame" x="0.0" y="0.0" width="600" height="299.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="279.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="5qK-Dz-vPt">
-                                            <rect key="frame" x="0.0" y="0.0" width="600" height="299.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="280"/>
                                         </imageView>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Some heading" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="20" adjustsLetterSpacingToFitWidth="YES" highlighted="YES" translatesAutoresizingMaskIntoConstraints="NO" id="43x-sR-gX2">
-                                            <rect key="frame" x="230" y="240.5" width="141.5" height="21"/>
-                                            <constraints>
-                                                <constraint firstAttribute="height" constant="21" id="zMC-ZS-zgp"/>
-                                            </constraints>
-                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="23"/>
-                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
                                     </subviews>
                                     <constraints>
                                         <constraint firstAttribute="trailing" secondItem="5qK-Dz-vPt" secondAttribute="trailing" id="2g1-CR-scw"/>
-                                        <constraint firstAttribute="bottomMargin" secondItem="43x-sR-gX2" secondAttribute="bottom" constant="30" id="Dub-sZ-uOG"/>
                                         <constraint firstItem="5qK-Dz-vPt" firstAttribute="leading" secondItem="6hg-hs-FmO" secondAttribute="leading" id="N24-ME-cZM"/>
-                                        <constraint firstItem="5qK-Dz-vPt" firstAttribute="centerX" secondItem="43x-sR-gX2" secondAttribute="centerX" id="Y9o-ii-lQg"/>
                                         <constraint firstItem="5qK-Dz-vPt" firstAttribute="centerY" secondItem="6hg-hs-FmO" secondAttribute="centerY" id="bNT-Mt-rtX"/>
                                         <constraint firstItem="5qK-Dz-vPt" firstAttribute="top" secondItem="6hg-hs-FmO" secondAttribute="top" id="bgR-OO-UL6"/>
-                                        <constraint firstItem="43x-sR-gX2" firstAttribute="centerX" secondItem="6hg-hs-FmO" secondAttribute="centerX" id="jOC-si-p5h"/>
-                                        <constraint firstItem="43x-sR-gX2" firstAttribute="top" secondItem="6hg-hs-FmO" secondAttribute="topMargin" constant="60" id="o7v-12-yhX"/>
                                     </constraints>
-                                    <variation key="default">
-                                        <mask key="constraints">
-                                            <exclude reference="o7v-12-yhX"/>
-                                        </mask>
-                                    </variation>
                                 </tableViewCellContentView>
                                 <connections>
                                     <outlet property="bkImageViews" destination="5qK-Dz-vPt" id="HBV-1s-rRT"/>
-                                    <outlet property="headingLabel" destination="43x-sR-gX2" id="WWf-aJ-JRc"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>

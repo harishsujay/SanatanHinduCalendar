@@ -75,7 +75,7 @@ class MasterViewController: UITableViewController {
         let entry = data.apptiles[indexPath.row]
         let image = UIImage(named: entry.filename)
         cell.bkImageViews.image = image
-        cell.headingLabel.text = entry.heading
+        //cell.headingLabel.text = entry.heading
         return cell
     }
 

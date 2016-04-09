@@ -10,6 +10,7 @@ import UIKit
 
 class MasterTableViewCell: UITableViewCell {
 
+    //Create IBOutlet for displaying the background image and heading label
     @IBOutlet weak var headingLabel: UILabel!
     @IBOutlet weak var bkImageViews: UIImageView!
     

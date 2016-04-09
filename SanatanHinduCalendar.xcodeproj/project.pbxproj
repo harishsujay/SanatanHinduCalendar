@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		681FCE6D1CB8CD8A00DBF9BF /* MasterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681FCE6C1CB8CD8A00DBF9BF /* MasterTableViewCell.swift */; };
 		6832B63B1CB8C4A10065D92A /* MasterData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6832B63A1CB8C4A10065D92A /* MasterData.swift */; };
-		6832B6421CB8C6990065D92A /* auspicious_times.png in Resources */ = {isa = PBXBuildFile; fileRef = 6832B63D1CB8C6990065D92A /* auspicious_times.png */; };
-		6832B6431CB8C6990065D92A /* festivals.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6832B63E1CB8C6990065D92A /* festivals.jpg */; };
-		6832B6441CB8C6990065D92A /* hindu_philosophy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6832B63F1CB8C6990065D92A /* hindu_philosophy.jpg */; };
-		6832B6451CB8C6990065D92A /* sanatan_hindu_calendar.png in Resources */ = {isa = PBXBuildFile; fileRef = 6832B6401CB8C6990065D92A /* sanatan_hindu_calendar.png */; };
-		6832B6461CB8C6990065D92A /* spiritual_practices.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6832B6411CB8C6990065D92A /* spiritual_practices.jpg */; };
+		688AACFB1CB8F575000D6DFF /* calendar.png in Resources */ = {isa = PBXBuildFile; fileRef = 688AACF61CB8F575000D6DFF /* calendar.png */; };
+		688AACFC1CB8F575000D6DFF /* glimpse_of_hindutva.png in Resources */ = {isa = PBXBuildFile; fileRef = 688AACF71CB8F575000D6DFF /* glimpse_of_hindutva.png */; };
+		688AACFD1CB8F575000D6DFF /* holy_festivals.png in Resources */ = {isa = PBXBuildFile; fileRef = 688AACF81CB8F575000D6DFF /* holy_festivals.png */; };
+		688AACFE1CB8F575000D6DFF /* ideal_routine.png in Resources */ = {isa = PBXBuildFile; fileRef = 688AACF91CB8F575000D6DFF /* ideal_routine.png */; };
+		688AACFF1CB8F575000D6DFF /* sadhana.png in Resources */ = {isa = PBXBuildFile; fileRef = 688AACFA1CB8F575000D6DFF /* sadhana.png */; };
 		68FCB69D1CB7FEDE00C87FCD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68FCB69C1CB7FEDE00C87FCD /* AppDelegate.swift */; };
 		68FCB69F1CB7FEDE00C87FCD /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68FCB69E1CB7FEDE00C87FCD /* MasterViewController.swift */; };
 		68FCB6A11CB7FEDE00C87FCD /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68FCB6A01CB7FEDE00C87FCD /* DetailViewController.swift */; };
@@ -44,11 +44,11 @@
 /* Begin PBXFileReference section */
 		681FCE6C1CB8CD8A00DBF9BF /* MasterTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterTableViewCell.swift; sourceTree = "<group>"; };
 		6832B63A1CB8C4A10065D92A /* MasterData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterData.swift; sourceTree = "<group>"; };
-		6832B63D1CB8C6990065D92A /* auspicious_times.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = auspicious_times.png; path = "../../../Dropbox/iOS App/Assingment_1/Assets/auspicious_times.png"; sourceTree = "<group>"; };
-		6832B63E1CB8C6990065D92A /* festivals.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = festivals.jpg; path = "../../../Dropbox/iOS App/Assingment_1/Assets/festivals.jpg"; sourceTree = "<group>"; };
-		6832B63F1CB8C6990065D92A /* hindu_philosophy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = hindu_philosophy.jpg; path = "../../../Dropbox/iOS App/Assingment_1/Assets/hindu_philosophy.jpg"; sourceTree = "<group>"; };
-		6832B6401CB8C6990065D92A /* sanatan_hindu_calendar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sanatan_hindu_calendar.png; path = "../../../Dropbox/iOS App/Assingment_1/Assets/sanatan_hindu_calendar.png"; sourceTree = "<group>"; };
-		6832B6411CB8C6990065D92A /* spiritual_practices.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = spiritual_practices.jpg; path = "../../../Dropbox/iOS App/Assingment_1/Assets/spiritual_practices.jpg"; sourceTree = "<group>"; };
+		688AACF61CB8F575000D6DFF /* calendar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = calendar.png; path = "../../../Dropbox/iOS App/Assingment_1/Assets/Panchang Assets/calendar.png"; sourceTree = "<group>"; };
+		688AACF71CB8F575000D6DFF /* glimpse_of_hindutva.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = glimpse_of_hindutva.png; path = "../../../Dropbox/iOS App/Assingment_1/Assets/Panchang Assets/glimpse_of_hindutva.png"; sourceTree = "<group>"; };
+		688AACF81CB8F575000D6DFF /* holy_festivals.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = holy_festivals.png; path = "../../../Dropbox/iOS App/Assingment_1/Assets/Panchang Assets/holy_festivals.png"; sourceTree = "<group>"; };
+		688AACF91CB8F575000D6DFF /* ideal_routine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ideal_routine.png; path = "../../../Dropbox/iOS App/Assingment_1/Assets/Panchang Assets/ideal_routine.png"; sourceTree = "<group>"; };
+		688AACFA1CB8F575000D6DFF /* sadhana.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sadhana.png; path = "../../../Dropbox/iOS App/Assingment_1/Assets/Panchang Assets/sadhana.png"; sourceTree = "<group>"; };
 		68FCB6991CB7FEDE00C87FCD /* SanatanHinduCalendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SanatanHinduCalendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68FCB69C1CB7FEDE00C87FCD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		68FCB69E1CB7FEDE00C87FCD /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
@@ -93,11 +93,11 @@
 		6832B63C1CB8C65B0065D92A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				6832B63D1CB8C6990065D92A /* auspicious_times.png */,
-				6832B63E1CB8C6990065D92A /* festivals.jpg */,
-				6832B63F1CB8C6990065D92A /* hindu_philosophy.jpg */,
-				6832B6401CB8C6990065D92A /* sanatan_hindu_calendar.png */,
-				6832B6411CB8C6990065D92A /* spiritual_practices.jpg */,
+				688AACF61CB8F575000D6DFF /* calendar.png */,
+				688AACF71CB8F575000D6DFF /* glimpse_of_hindutva.png */,
+				688AACF81CB8F575000D6DFF /* holy_festivals.png */,
+				688AACF91CB8F575000D6DFF /* ideal_routine.png */,
+				688AACFA1CB8F575000D6DFF /* sadhana.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -264,14 +264,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6832B6461CB8C6990065D92A /* spiritual_practices.jpg in Resources */,
-				6832B6451CB8C6990065D92A /* sanatan_hindu_calendar.png in Resources */,
-				6832B6431CB8C6990065D92A /* festivals.jpg in Resources */,
+				688AACFC1CB8F575000D6DFF /* glimpse_of_hindutva.png in Resources */,
 				68FCB6A91CB7FEDE00C87FCD /* LaunchScreen.storyboard in Resources */,
-				6832B6421CB8C6990065D92A /* auspicious_times.png in Resources */,
+				688AACFB1CB8F575000D6DFF /* calendar.png in Resources */,
+				688AACFE1CB8F575000D6DFF /* ideal_routine.png in Resources */,
+				688AACFD1CB8F575000D6DFF /* holy_festivals.png in Resources */,
 				68FCB6A61CB7FEDE00C87FCD /* Assets.xcassets in Resources */,
+				688AACFF1CB8F575000D6DFF /* sadhana.png in Resources */,
 				68FCB6A41CB7FEDE00C87FCD /* Main.storyboard in Resources */,
-				6832B6441CB8C6990065D92A /* hindu_philosophy.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
