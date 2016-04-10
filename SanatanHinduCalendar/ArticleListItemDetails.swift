@@ -17,9 +17,11 @@ class ArticleListItemDetails {
     var articleTitle:String;
     var articleText:String;
     var articleTargetPage:String;
+    var articleDate:String;
+    
     
     //yes, this is the good old parametrized constructor.
-    init(aritcleType:String, articleName:String, articleTitle:String, articleText:String, articleImage:String, articleTargetPage:String) {
+    init(aritcleType:String, articleName:String, articleTitle:String, articleText:String, articleImage:String, articleTargetPage:String, articleDate:String) {
         
         self.aritcleType = aritcleType;
         self.articleName = articleName;
@@ -27,6 +29,7 @@ class ArticleListItemDetails {
         self.articleText = articleText;
         self.articleImage = articleImage;
         self.articleTargetPage = articleTargetPage;
+        self.articleDate = articleDate;
         
     }
     
