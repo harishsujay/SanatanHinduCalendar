@@ -8,10 +8,13 @@
 
 import UIKit
 
-class DetailViewController: UIViewController {
+class DetailViewController: UITableViewController {
 
     @IBOutlet weak var detailDescriptionLabel: UILabel!
 
+    /* Page object and article object are created - by Sujay Borde*/
+    let pageDetailsObj = PageDetails();
+    var articleItemsObj = [ArticleListItemDetails ]();
 
     var detailItem: AnyObject? {
         didSet {
@@ -27,17 +30,40 @@ class DetailViewController: UIViewController {
                 label.text = detail.description
             }
         }
+        
     }
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         self.configureView()
+        /*  Initialising article dictionaries and geting temporary article objects for festivals - by Sujay Borde*/
+        self.pageDetailsObj.initializeArticleDictionaries();
+        self.articleItemsObj = self.pageDetailsObj.getAllArticlesByPageType("festivals");
+        
+        //if var label =
+        
+        print (self.articleItemsObj[0].articleText);
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    override func numberOfSectionsInTableView(tableView: UITableView) -> Int { return 1}
+    
+    override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return pageDetailsObj.articlesDictionary.count
+    }
+    
+    override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+        let detailscell = tableView.dequeueReusableCellWithIdentifier("DetailsCell", forIndexPath: indexPath) as! DetailTableViewCell
+        let entry = pageDetailsObj.getAllArticlesByPageType(<#T##pageType: String##String#>)[indexPath.row]
+        let image = UIImage(named: entry.articleImage)
+        detailscell.detailsImage.image = image
+        //cell.headingLabel.text = entry.heading
+        return detailscell
     }
 
 

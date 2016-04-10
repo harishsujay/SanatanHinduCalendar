@@ -16,9 +16,7 @@ class MasterViewController: UITableViewController {
     var detailViewController: DetailViewController? = nil
     var objects = [AnyObject]()
     
-    /* Page object and article object are created - by Sujay Borde*/
-    let tempPageObj = PageDetails();
-    var tempArticleObj = [ArticleListItemDetails ]();
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -32,11 +30,7 @@ class MasterViewController: UITableViewController {
             self.detailViewController = (controllers[controllers.count-1] as! UINavigationController).topViewController as? DetailViewController
         }
         
-        /*  Initialising article dictionaries and geting temporary article objects for festivals - by Sujay Borde*/
-        self.tempPageObj.initializeArticleDictionaries();
-        self.tempArticleObj = self.tempPageObj.getAllArticlesByPageType("festivals");
         
-        print (self.tempArticleObj[0].articleText);
     }
 
     override func viewWillAppear(animated: Bool) {

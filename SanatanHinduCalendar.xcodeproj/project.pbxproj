@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		681FCE6D1CB8CD8A00DBF9BF /* MasterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681FCE6C1CB8CD8A00DBF9BF /* MasterTableViewCell.swift */; };
 		6832B63B1CB8C4A10065D92A /* MasterData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6832B63A1CB8C4A10065D92A /* MasterData.swift */; };
+		684FEB051CBA02A20022D167 /* DetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684FEB041CBA02A20022D167 /* DetailTableViewCell.swift */; };
 		688AACFB1CB8F575000D6DFF /* calendar.png in Resources */ = {isa = PBXBuildFile; fileRef = 688AACF61CB8F575000D6DFF /* calendar.png */; };
 		688AACFC1CB8F575000D6DFF /* glimpse_of_hindutva.png in Resources */ = {isa = PBXBuildFile; fileRef = 688AACF71CB8F575000D6DFF /* glimpse_of_hindutva.png */; };
 		688AACFD1CB8F575000D6DFF /* holy_festivals.png in Resources */ = {isa = PBXBuildFile; fileRef = 688AACF81CB8F575000D6DFF /* holy_festivals.png */; };
@@ -46,6 +47,7 @@
 /* Begin PBXFileReference section */
 		681FCE6C1CB8CD8A00DBF9BF /* MasterTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterTableViewCell.swift; sourceTree = "<group>"; };
 		6832B63A1CB8C4A10065D92A /* MasterData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterData.swift; sourceTree = "<group>"; };
+		684FEB041CBA02A20022D167 /* DetailTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailTableViewCell.swift; sourceTree = "<group>"; };
 		688AACF61CB8F575000D6DFF /* calendar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = calendar.png; path = "../../../Dropbox/iOS App/Assingment_1/Assets/Panchang Assets/calendar.png"; sourceTree = "<group>"; };
 		688AACF71CB8F575000D6DFF /* glimpse_of_hindutva.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = glimpse_of_hindutva.png; path = "../../../Dropbox/iOS App/Assingment_1/Assets/Panchang Assets/glimpse_of_hindutva.png"; sourceTree = "<group>"; };
 		688AACF81CB8F575000D6DFF /* holy_festivals.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = holy_festivals.png; path = "../../../Dropbox/iOS App/Assingment_1/Assets/Panchang Assets/holy_festivals.png"; sourceTree = "<group>"; };
@@ -129,6 +131,7 @@
 			isa = PBXGroup;
 			children = (
 				681FCE6C1CB8CD8A00DBF9BF /* MasterTableViewCell.swift */,
+				684FEB041CBA02A20022D167 /* DetailTableViewCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -328,6 +331,7 @@
 			files = (
 				681FCE6D1CB8CD8A00DBF9BF /* MasterTableViewCell.swift in Sources */,
 				68FCB6A11CB7FEDE00C87FCD /* DetailViewController.swift in Sources */,
+				684FEB051CBA02A20022D167 /* DetailTableViewCell.swift in Sources */,
 				688AAD221CB923BC000D6DFF /* ArticleListItemDetails.swift in Sources */,
 				6832B63B1CB8C4A10065D92A /* MasterData.swift in Sources */,
 				68FCB69F1CB7FEDE00C87FCD /* MasterViewController.swift in Sources */,
