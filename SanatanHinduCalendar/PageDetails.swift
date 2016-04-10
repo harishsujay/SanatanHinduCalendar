@@ -20,12 +20,12 @@ class PageDetails {
     
     var pageImage:String = "";
     
-    var articlesDictionary = [  ArticleListItemDetails ]();
+    //var articlesDictionary = [  ArticleListItemDetails ]();
     
     // and yes, initializing the articlesDictionary will some random data for now, untill we get it from the web service
-    func initializeArticleDictionaries() {
+   /*  func initializeArticleDictionaries() {
         
-        articlesDictionary.append (ArticleListItemDetails(
+       articlesDictionary.append (ArticleListItemDetails(
             aritcleType: "festivals",
             articleName: "Ramnavami",
             articleTitle: "Ramnavami : How to perform pooja of Shriram",
@@ -139,6 +139,6 @@ class PageDetails {
         return (articleArray);
     }
     
-    
+    */
     
 }
