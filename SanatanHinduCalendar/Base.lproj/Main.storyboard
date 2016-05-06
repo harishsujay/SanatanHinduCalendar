@@ -102,7 +102,7 @@
                                     <rect key="frame" x="0.0" y="0.0" width="600" height="279.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5qK-Dz-vPt">
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="calendar" translatesAutoresizingMaskIntoConstraints="NO" id="5qK-Dz-vPt">
                                             <rect key="frame" x="0.0" y="0.0" width="600" height="280"/>
                                         </imageView>
                                     </subviews>
@@ -146,4 +146,7 @@
             <point key="canvasLocation" x="-45" y="129"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="calendar" width="200" height="149"/>
+    </resources>
 </document>
